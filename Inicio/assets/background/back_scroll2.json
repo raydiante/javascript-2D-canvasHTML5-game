@@ -1,0 +1,20 @@
+{"frames": {
+
+"backscroll.png":
+{
+	"frame": {"x":0,"y":0,"w":3840,"h":750},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":3840,"h":750},
+	"sourceSize": {"w":3840,"h":750}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "back_scroll2.png",
+	"format": "RGBA8888",
+	"size": {"w":3840,"h":750},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9296d7da599ca52e41c0e7dca23b289e:3034c9871efbcbf1e26125fe26c23199:3453fa494a4e23233950fba515ae19a4$"
+}
+}

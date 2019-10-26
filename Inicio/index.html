@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <meta charset="UTF-8" />
+    <title>Twisted Adventures</title>
+    
+    <script src="lib/extendjs/extend.min.js"></script>
+    <script src="lib/animation/requestAnimationFramePolyfill.js"></script>
+    <script src="lib/input/keyboard.js"></script>
+    <script src="lib/net/AJAX.js"></script>
+    <script src="lib/media/SoundManager.js"></script>
+		<script src="lib/media/CanvasFilters.js"></script>
+    <script src="js/SpriteSheet.js"></script>
+    <script src="js/Entity.js"></script>
+    <script src="js/Background.js"></script>
+    <script src="js/Traps.js"></script>
+    <script src="js/Ground.js"></script>
+    <script src="js/Objetos.js"></script>
+    <script src="js/groundMap.js"></script>
+    <script src="js/GameWorld.js"></script>
+	  <script src="js/Camera.js"></script>
+    <script src="js/Hero.js"></script>
+    <script src="js/animatedGame.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+    <div id="loadInfo" class="visible">
+      <div id="overlay"></div>
+      <img id="loader" src="images/loading.gif" />
+      <div id="regrasJogo"></div>
+      <div id="help"></div>
+      <div id="assetLoaded"></div>
+    </div>
+
+    <canvas id="canvasBack" width="550" height="400"></canvas>
+    <canvas id="canvasEnt" width="550" height="400"></canvas>
+    <canvas id="canvasComp" width="550" height="400"></canvas>
+    <canvas id="canvasGround" width="550" height="400"></canvas>
+
+    <div id="endModal" class="endModal">
+      <div class="endModal-content">
+        <div id="inEndModal"></div>
+        <button id="buttonEnd" class="myButton">APERTE PARA RECOMEÇAR</button>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
